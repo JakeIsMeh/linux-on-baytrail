@@ -2,7 +2,7 @@
 ### Last updated: 22/9/2019
 # Overview
 
-Lenovo 100s:
+Lenovo 100s-11iby:
 
 What's not working out of the box?
 
