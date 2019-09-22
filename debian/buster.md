@@ -38,6 +38,7 @@ What's not working out of the box?
 ## Battery
 
 See the bug report filed [here](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=927163).
+
 Status: Not Release Critical, on wishlist.
 
 ## Wi-Fi
