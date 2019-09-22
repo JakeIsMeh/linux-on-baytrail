@@ -1,3 +1,9 @@
+```
+CC-BY-NC-SA 4.0 INTL
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+November 25, 2013
+```
+
 ![CC-BY-NC-SA 4.0 INTL](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 
 
