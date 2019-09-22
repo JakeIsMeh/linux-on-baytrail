@@ -3,7 +3,7 @@
 
 This repo is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License.
 
-Resources for running Linux on Bay-Trail based devices, mainly the Lenovo 100s.
+Resources for running Linux on Bay-Trail based devices, mainly the Lenovo 100s-11iby.
 
 ## Contributing:
 Feel free to open issues for the following things:
