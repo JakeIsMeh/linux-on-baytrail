@@ -2,7 +2,9 @@
 
 ## Disclaimer
 ```
-There are varying opinions on whether to use swap on Linux. This article is thus written on, to my best knowledge, what I have read and know, and by extension, my opinions on swap usage. This may not account for logical fallacies, outdated information, etc.
+There are varying opinions on whether to use swap on Linux.
+This article is thus written on, to my best knowledge, what I have read and know, and by extension, my opinions on swap usage.
+This may not account for logical fallacies, outdated information, etc.
 
 Additional disclaimer:
 I am not responsible if you muck up your installation, accidentally delete your data, or lose your job from this article.
