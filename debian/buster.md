@@ -2,7 +2,7 @@
 ### Last updated: 22/9/2019
 # Overview
 
-Lenovo 100s-11iby:
+`Lenovo 100s-11IBY`:
 
 What's not working out of the box?
 
@@ -55,3 +55,8 @@ $ su -
 $ apt install firmware-intel-sound
 $ reboot
 ```
+
+## Notes
+You may want to disable or reduce swappiness to increase the lifespan of the eMMC chip after installation.
+
+See [here](../misc/swap.md) for more info.
