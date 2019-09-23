@@ -56,7 +56,7 @@ $ nano /etc/fstab/
 Comment out or delete the line containing UUID for the swap partition.
 $ nano /etc/initramfs-tools/conf.d/resume
 Comment out or delete the line containing UUID for the swap partition.
-exit
+$ exit
 ```
 3. Open Gnome Disks, it should ask for your password.
 4. Delete your swap partition.
