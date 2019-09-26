@@ -46,6 +46,8 @@ $ nano /etc/sysctl.conf
 To the end of the file, append the following: `vm.swappiness=10`
 
 ## Outright disabling swap
+Instructions for Debian & devrivatives:
+
 1. Open terminal and run the following:
 
 ```
