@@ -18,3 +18,5 @@ Additionally, you are welcome to create a pull request for the following things:
 
 ## Current pages:
 Debian [Buster](debian/buster.md)
+
+Important Information on [Swap](misc/swap.md)
