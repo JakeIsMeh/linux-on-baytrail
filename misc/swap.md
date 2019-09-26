@@ -46,11 +46,11 @@ $ nano /etc/sysctl.conf
 To the end of the file, append the following: `vm.swappiness=10`
 
 ## Outright disabling swap
-1. Install Gnome Disks: `$ sudo apt install gnome-disk-utility`
-2. Open terminal and run the following:
+1. Open terminal and run the following:
 
 ```
 $ su -
+$ apt install gnome-disk-utility
 $ swapoff -all
 $ nano /etc/fstab/
 Comment out or delete the line containing UUID for the swap partition.
@@ -58,10 +58,10 @@ $ nano /etc/initramfs-tools/conf.d/resume
 Comment out or delete the line containing UUID for the swap partition.
 $ exit
 ```
-3. Open Gnome Disks, it should ask for your password.
-4. Delete your swap partition.
-5. Resize your data partition to utilize the extra space left behind by the swap partition.
-6. Back to the terminal:
+2. Open Gnome Disks, it should ask for your password.
+3. Delete your swap partition.
+4. Resize your data partition to utilize the extra space left behind by the swap partition.
+5. Back to the terminal:
 ```
 $ su -
 $ update-initramfs -u -k all
