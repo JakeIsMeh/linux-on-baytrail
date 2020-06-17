@@ -46,14 +46,14 @@ Before proceeding, connect a tethering phone/Linux compatible Wi-Fi adapter.
 
 ```
 $ su -
-$ apt install firmware-realtek
-$ reboot
+# apt install firmware-realtek
+# reboot
 ```
 ## Sound
 ```
 $ su -
-$ apt install firmware-intel-sound
-$ reboot
+# apt install firmware-intel-sound
+# reboot
 ```
 
 ## Notes
