@@ -41,7 +41,7 @@ On devices with 2 GB of RAM, swap can be disabled entirely, as being such low-en
 ## Reducing swappiness
 ```
 $ su -
-$ nano /etc/sysctl.conf
+# nano /etc/sysctl.conf
 ```
 To the end of the file, append the following: `vm.swappiness=10`
 
@@ -52,13 +52,13 @@ Instructions for Debian & devrivatives:
 
 ```
 $ su -
-$ apt install gnome-disk-utility
-$ swapoff -all
-$ nano /etc/fstab/
+# apt install gnome-disk-utility
+# swapoff -all
+# nano /etc/fstab/
 Comment out or delete the line containing UUID for the swap partition.
-$ nano /etc/initramfs-tools/conf.d/resume
+# nano /etc/initramfs-tools/conf.d/resume
 Comment out or delete the line containing UUID for the swap partition.
-$ exit
+# exit
 ```
 2. Open Gnome Disks, it should ask for your password.
 3. Delete your swap partition.
@@ -66,7 +66,7 @@ $ exit
 5. Back to the terminal:
 ```
 $ su -
-$ update-initramfs -u -k all
-$ update-grub
-$ reboot
+# update-initramfs -u -k all
+# update-grub
+# reboot
 ```
